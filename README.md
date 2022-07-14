@@ -1,6 +1,7 @@
 # vkServiceApp
 Test task for the summer bootcamp from VK
-<img width="592" alt="image" src="https://user-images.githubusercontent.com/21089435/178983853-53efd889-68b2-472b-8c6b-e11b77e96f7e.png">
+<br>
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/21089435/178983853-53efd889-68b2-472b-8c6b-e11b77e96f7e.png">
 
 ## Данное приложение разработано для летнего буткемпа от VK
 

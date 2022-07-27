@@ -22,7 +22,8 @@ class ServiceListViewController: UIViewController, UITableViewDelegate, UITableV
         self.tableView.dataSource = self
         
         NetworkManager.shared.getData { response,_  in
-            self.services = response!
+            guard let response = response else { return }
+            self.services = response
             self.loadingIndicator.stopAnimating()
             self.loadingIndicator.isHidden = true
             self.tableView.reloadData()
